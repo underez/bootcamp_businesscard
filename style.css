@@ -1,0 +1,84 @@
+@media (max-width: 800px) {
+label {
+    color: blue;
+}
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(237, 230, 230, 0.775);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.user-item { 
+    display: inline-block;
+    margin: 2px;
+}
+
+.user-item-card {
+    display: flex;
+    width: 450px;
+    height: 220px;
+    margin: 20px 20px;
+    
+}
+.user-list {
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 50px;
+   
+}
+.user-item-media {
+    background-color: rgb(253, 154, 170);
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.media-name {
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia,;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+   border-top-right-radius:10px;
+   border-bottom-right-radius: 10px;
+   width: 400px;
+   height: 220px;
+}
+.content-title {
+    display: inline-block;
+    color: black;
+    margin: 3px;
+    color: rgb(109, 106, 106);
+    font-size: 17px;
+
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia,;
+    color: rgb(249, 143, 161);
+  
+}
+
+span {
+    display: inline-block;
+    justify-content: flex-start;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 500;
